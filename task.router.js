@@ -11,12 +11,13 @@ router.get('/',(req,res)=>{
   }
 })
 
-router.post('/:id', (req,res)=>{
- req.params.id
-    res.send("updated")
+router.post('/', (req,res)=>{
+
 }) 
 
-router.delete('/item/:id',(req,res)=>{}) 
-router.put('/item/:id',(req,res)=>{}) 
+router.delete('/',(req,res)=>{}) 
+router.delete('/:id',(req,res)=>{}) 
+router.put('/',(req,res)=>{}) 
+router.put('/:id',(req,res)=>{}) 
 
 module.exports = router
